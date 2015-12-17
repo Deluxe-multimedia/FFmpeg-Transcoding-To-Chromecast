@@ -12,7 +12,7 @@ Básicamente es un ejemplo. Para nada está pensado aún para entornos de produc
 Creo que el proyecto es lo demasiado simple y autoexplicativo como para no necesitar documentar nada. Nos encontramos con una pantalla donde introducir una url y un botón para activar el webserver. A partir de ahí nos indica donde está activa la url del streaming que servirá para VLC, Chromecast, etc.
 
 ##Ejemplo
-Les dejo un apk compilado para probar antes de nada, por si os parece bien https://github.com/munix/FFmpeg-Transcoding-To-Chromecast/blob/master/APK/app-release.apk
+Les dejo un apk compilado para probar antes de nada, por si os parece bien https://github.com/munix/FFmpeg-Transcoding-To-Chromecast/blob/master/APK/app-release.apk?raw=true
 
 ##Proyectos que me han inspirado o ayudado mucho (o que utilizo parcialmente). GRACIAS!
 https://github.com/crust87/Android-FFmpegExecutor <br>
