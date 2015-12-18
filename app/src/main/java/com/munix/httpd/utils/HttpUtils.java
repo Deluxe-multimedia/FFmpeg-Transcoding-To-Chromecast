@@ -1,4 +1,4 @@
-package com.munix.httpd.http;
+package com.munix.httpd.utils;
 
 import com.munix.httpd.http.interfaces.DownloadListener;
 
@@ -20,7 +20,7 @@ import java.util.regex.PatternSyntaxException;
 /**
  * Created by munix on 9/12/15.
  */
-public class Utils {
+public class HttpUtils {
 
     private static final String ipv4Pattern = "(([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.){3}([01]?\\d\\d?|2[0-4]\\d|25[0-5])";
     private static final String ipv6Pattern = "([0-9a-f]{1,4}:){7}([0-9a-f]){1,4}";
@@ -92,21 +92,21 @@ public class Utils {
     }
 
     public static boolean isIpAddress( String ipAddress ) {
-        Matcher m1 = Utils.VALID_IPV4_PATTERN.matcher( ipAddress );
+        Matcher m1 = HttpUtils.VALID_IPV4_PATTERN.matcher( ipAddress );
         if ( m1.matches() ) {
             return true;
         }
-        Matcher m2 = Utils.VALID_IPV6_PATTERN.matcher( ipAddress );
+        Matcher m2 = HttpUtils.VALID_IPV6_PATTERN.matcher( ipAddress );
         return m2.matches();
     }
 
     public static boolean isIpv4Address( String ipAddress ) {
-        Matcher m1 = Utils.VALID_IPV4_PATTERN.matcher( ipAddress );
+        Matcher m1 = HttpUtils.VALID_IPV4_PATTERN.matcher( ipAddress );
         return m1.matches();
     }
 
     public static boolean isIpv6Address( String ipAddress ) {
-        Matcher m1 = Utils.VALID_IPV6_PATTERN.matcher( ipAddress );
+        Matcher m1 = HttpUtils.VALID_IPV6_PATTERN.matcher( ipAddress );
         return m1.matches();
     }
 }

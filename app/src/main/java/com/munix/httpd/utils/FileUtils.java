@@ -1,4 +1,4 @@
-package com.munix.httpd.files;
+package com.munix.httpd.utils;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;

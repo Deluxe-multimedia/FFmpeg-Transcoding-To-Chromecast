@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="presets">
+        <item>ultrafast</item>
+        <item>superfast</item>
+        <item>veryfast</item>
+        <item>faster</item>
+        <item>fast</item>
+        <item>medium</item>
+        <item>slow</item>
+        <item>slower</item>
+        <item>veryslow</item>
+    </string-array>
+
+    <string-array name="audio">
+        <item>64k</item>
+        <item>32k</item>
+        <item>16k</item>
+        <item>128k</item>
+        <item>256k</item>
+        <item>320k</item>
+    </string-array>
+
+    <string-array name="frames">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="video">
+        <item>3000k</item>
+        <item>2500k</item>
+        <item>2000k</item>
+        <item>1500k</item>
+        <item>1000k</item>
+        <item>500k</item>
+    </string-array>
+
+    <string-array name="container">
+        <item>mp4</item>
+        <item>matroska</item>
+    </string-array>
+
+
+</resources>
